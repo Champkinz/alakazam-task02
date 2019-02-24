@@ -6,7 +6,7 @@ import {
     StyleSheet
 } from 'react-native';
 import AddTodo from './containers/AddTodo'
-
+import VisibleTodo from './containers/VisibleTodo'
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -22,7 +22,7 @@ class ToDo extends Component {
                 <AddTodo/>
 
                 <View>
-
+                    <VisibleTodo/>
                 </View>
             </View>
         )
